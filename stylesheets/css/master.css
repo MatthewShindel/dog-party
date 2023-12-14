@@ -1,0 +1,83 @@
+html {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	margin: 10px 20px;
+}
+
+.main-image{
+	background-image: url('/images/park.jpg');
+	background-color: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dog-icon{
+	width: 25px;
+	margin: 0.1em 1em;
+	
+}
+
+header{
+	background-color: #92E0E5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-words{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #408CA7;
+	color: white;
+}
+
+.dogs{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.three-dogs{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+input{
+	color: #7DB1C3;
+	border: 4px solid #408CA7;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	margin: 25px;
+}
+
+.dog-image{
+	border-radius: 50%;
+	border:2px solid #65A2B7;
+	width: 200px;
+}
+
+.main-dog-image{
+	width: 250px;
+}
+p{
+	margin: 10px;
+}
+
